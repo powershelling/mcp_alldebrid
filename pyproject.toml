@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp_alldebrid"
+version = "0.1.0"
+description = "Un outil MCP pour interagir avec l'API AllDebrid"
+authors = [{name = "Powershelling", email = "contact@powershelling.fr"}]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/powershelling/mcp_alldebrid"
+
+[tool.setuptools]
+packages = ["mcp_alldebrid"]
